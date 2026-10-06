@@ -253,9 +253,12 @@ header .left .right{
 }
 .region6 .D{
     justify-content: center;
+    gap: 16px;
+
 }
 .region6 .D  .vertical{
     gap: 17px;
+    width: 106.66px;
 }
 .region7{
     background-color:rgba(88, 112, 82, 1);
