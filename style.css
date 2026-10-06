@@ -87,6 +87,7 @@ header .left button{
 }
 header .left .horizontal{
     gap: 16px;
+    width: 100%;
 }
 header .left .left{
     background-color: rgba(236, 224, 206, 1);
@@ -279,7 +280,7 @@ header .left .right{
     color: rgba(3, 54, 61, 1);
 }
 .region7 .left .right{
-    background-color: rgba(82, 112, 94, 1);
+    background-color: rgba(88, 112, 82, 1);
     color: rgba(236, 224, 206, 1);
 }
 footer{
