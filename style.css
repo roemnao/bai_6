@@ -56,7 +56,6 @@ a img{
     margin: 0 !important;
 }
 a{
-    justify-content: center;
     align-items: center;
     gap: 0px !important;
 }
@@ -242,7 +241,11 @@ header .left .right{
     width: auto;
     justify-content: space-between;
 }
+.region6 *{
+  justify-content: center;
+}
 .region6 .C{
+  
     margin: 0px 314.67px 0px 314.67px;
 }
 .region6 .C .vertical{
