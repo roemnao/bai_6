@@ -1,0 +1,510 @@
+html{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    min-width: 1440px;
+    min-height: 1026px;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 168px 168px 64px 168px;
+    align-items: center;
+    justify-content: left;
+    gap: 100px;
+}
+.region1, .region2, .region3, .region4, .region5, .region6, .region7{
+    padding: 64px 168px 64px 168px;
+}
+p, h1, h2, h3, h4, h5, h6, a{
+    font-family: arial, sans-serif;
+    margin: 0;
+    
+}
+p{
+    line-height: 1.5;
+}
+.wtext{
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.b700, a{
+    font-weight: bold;
+    color: rgba(3, 54, 61, 1);
+}
+.b400{
+    font-weight: normal;
+    color: rgba(23, 73, 77, 1);
+}
+
+.note{
+    color: rgba(3, 54, 61, 1);
+    letter-spacing: 2px;
+}
+a{
+    color:rgba(23, 73, 77, 1);
+}
+a img{
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 !important;
+}
+a{
+    justify-content: center;
+    align-items: center;
+    gap: 0px !important;
+}
+header{
+    background-color: rgba(82, 112, 94, 1);
+}
+header .right{
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 379px;
+    height: 512px;
+}
+.note{
+    margin-bottom: 16px;;
+}
+header h1{
+    margin-bottom: 24px;;
+}
+header p{
+    margin-bottom: 28px;
+}
+header .left button{
+    width: 167.66px;
+    height: 48px;
+    border: 2px solid rgba(236, 224, 206, 1);
+}
+header .left .horizontal{
+    gap: 16px;
+}
+header .left .left{
+    background-color: rgba(236, 224, 206, 1);
+    color: rgba(3, 54, 61, 1);
+}
+header .left .right{
+    background-color: rgba(82, 112, 94, 1);
+    color: rgba(236, 224, 206, 1);
+}
+
+
+.region0{
+    background-color:rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 166px;
+}
+
+.region1{
+    background-color:rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.region1 .horizontal{
+    align-items: center;
+    justify-content: center;
+}
+.region1 .vertical{
+    text-align: center;
+    padding: 3px 0px 28px 0px;
+}
+.region1 .horizontal{
+    gap: 16px;
+    text-align: center;
+}
+.region1 img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 44px;
+}
+.region1  .horizontal .vertical{
+    align-items: center;
+    justify-content: center;
+    padding: 24px 30px 24px 30px;
+}
+.region1 h3{
+    margin-bottom: 30px;
+}
+.region1 p{
+    margin-bottom: 26px;
+}
+.region2{
+    background-color:rgba(248, 249, 249, 1);
+    gap: 100px;
+}
+.region2 h2{
+    margin-bottom: 30px;
+    
+}
+.region2 a{
+    margin-top: 22px;
+    justify-content: left !important;
+}
+.region2 .vertical{
+    justify-content: center;
+    align-items: left;
+}
+
+.region3{
+    background-color:rgba(248, 249, 249, 1);
+    
+}
+.region3 .block{
+    padding: 0px 56px 0px 56px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background-color:rgba(82, 112, 94, 1);
+    width: auto;
+    height: 299px;
+    background-color: rgba(3, 54, 61, 1);
+}
+.region3 .block .vertical{
+    gap: 24px;
+}
+.region3 .block button{
+    border: 0px; 
+    background-color: rgba(236, 224, 206, 1);
+    color: rgba(3, 54, 61, 1);
+    width: 186px;
+    height: 40px;
+}
+.region3 img{
+    width: 168px;
+    height: 168px;
+}
+
+
+.region4{
+    background-color:rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.region4 img{
+    width: 444px;
+    height: 370px;
+}
+.region4 h2{
+    margin-bottom: 30px;
+}
+.region4 a{
+    margin-top: 22px;
+    
+}
+
+.region5{
+    background-color:rgba(248, 249, 249, 1);
+    gap: 64px;
+    text-align: center;
+}
+.region5 img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 44px;
+}
+.region5 h3{
+    margin-bottom: 30px;
+}
+.region5 p{
+    margin-bottom: 26px;
+}
+.region5 .horizontal{
+    gap: 16px;
+}
+.region5  .horizontal .vertical{
+    align-items: center;
+    text-align: center;
+    padding: 24px 26px 24px 26px;
+}
+.region6{
+    background-color:rgba(255, 255, 255, 1);
+    text-align: center;
+    gap: 64px;
+}
+.region6 .co{
+   gap: 102.5px
+}
+.region6 .B{
+    width: auto;
+    justify-content: space-between;
+}
+.region6 .C{
+    margin: 0px 314.67px 0px 314.67px;
+}
+.region6 .C .vertical{
+    margin: 34px 0px 24px 0px;
+}
+.region6 .D{
+    justify-content: center;
+}
+.region6 .D  .vertical{
+    gap: 17px;
+}
+.region7{
+    background-color:rgba(88, 112, 82, 1);
+    align-items: center;
+    justify-content: space-between;
+}
+.region7 img{
+    width: 444px;
+    height: 444px;
+    border-radius: 100%;
+}
+.region7 .left{
+    gap: 28px;
+}
+.region7 .left button{
+    width: 171.19px;
+    height: 48px;
+    border: 2px solid rgba(236, 224, 206, 1);
+}
+.region7 .left .horizontal{
+    gap: 16px;
+}
+.region7 .left .left{
+    background-color: rgba(236, 224, 206, 1);
+    color: rgba(3, 54, 61, 1);
+}
+.region7 .left .right{
+    background-color: rgba(82, 112, 94, 1);
+    color: rgba(236, 224, 206, 1);
+}
+footer{
+    box-sizing: border-box;
+    width: calc(100% + 16px);
+    margin-left: -8px;
+    padding: 96px 168px 24px;
+    background-color: rgba(248, 249, 249, 1);
+}
+footer .idk{
+    column-gap: 12px;
+    height: 28px;
+}
+footer .idk p{
+    color: rgba(104, 115, 125, 1) !important;
+    font-size: 12px !important;
+}
+footer .container{
+    width: 100%;
+}
+ 
+footer .social img{
+    width: 32px;
+    height: 32px;
+}
+footer .social{
+    gap: 16px;
+}
+
+
+
+footer .A > .vertical{
+    gap: 20px;
+    padding: 0px 6px 0px 6px;
+    width: calc(100% / 6);
+
+}
+
+footer .A .vertical .content{
+    gap: 9px;
+}
+
+
+
+footer hr{
+    margin: 32px 0 24px;
+    border: 0;
+    border-top: 1px solid rgba(23, 73, 77, 0.2);
+}
+
+
+
+footer input{
+    box-sizing: border-box;
+    height: 48px;
+    border: 1px solid rgba(23, 73, 77, 0.4);
+    background-color: rgba(248, 249, 249, 1);
+  
+    width: 310px;
+    padding-left: 12px;
+}
+footer input::placeholder{
+    color: rgba(194, 200, 204, 1);
+    font-size: 15px;
+}
+
+footer .space button{
+    height: 48px;
+    padding: 0 20px;
+    border: 0;
+    background-color: rgba(3, 54, 61, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    width: 134px;
+}
+footer .space{
+    justify-content: space-between;
+    margin-bottom: 24px;;
+}
+header div{
+    width: calc(100% - 336px);
+}
+
+header .note{
+    font-size: 11px;
+}
+
+header h1{
+    font-size: 67px;
+    letter-spacing: 2px;
+}
+
+header p{
+    font-size: 19px;
+}
+
+header button{
+    font-size: 17px;
+}
+
+.region1 .note{
+    font-size: 11px;
+}
+
+.region1 h2{
+    font-size: 29px;
+}
+
+.region1 h3{
+    font-size: 22px;
+}
+
+.region1 p{
+    font-size: 16px;
+}
+
+.region1 a{
+    font-size: 17px;
+}
+
+.region2 .note{
+    font-size: 12px;
+}
+
+.region2 h2{
+    font-size: 44px;
+}
+
+.region2 p{
+    font-size: 16px;
+}
+
+.region2 a{
+    font-size: 17px;
+}
+
+.region3 h2{
+    font-size: 21px;
+}
+
+.region3 p{
+    font-size: 16px;
+}
+
+.region3 button{
+    font-size: 15px;
+}
+
+.region4 .note{
+    font-size: 12px;
+}
+
+.region4 h2{
+    font-size: 43px;
+}
+
+.region4 p{
+    font-size: 16px;
+}
+
+.region4 a{
+    font-size: 16px;
+}
+
+.region5 .note{
+    font-size: 12px;
+}
+
+.region5 h2{
+    font-size: 43px;
+}
+
+.region5 h3{
+    font-size: 24px;
+}
+
+.region5 p{
+    font-size: 16px;
+}
+
+.region5 a{
+    font-size: 17px;
+}
+
+.region6 .note{
+    font-size: 12px;
+}
+
+.region6 .outside{
+    font-size: 22px;
+}
+
+.region6 .inside{
+    font-size: 14px;
+}
+
+.region6 h4{
+    font-size: 32px;
+}
+
+.region6 a{
+    font-size: 15px;
+}
+
+.region7 h2{
+    font-size: 43px;
+}
+
+.region7 button{
+    font-size: 17px;
+}
+
+footer .container h2,
+footer .space h2{
+    font-size: 22px;
+}
+
+footer .container h3{
+    font-size: 12px;
+}
+
+footer .container p{
+    font-size: 12px;
+}
+
+footer .space .first p{
+    font-size: 15px;
+}
