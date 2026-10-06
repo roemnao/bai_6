@@ -339,7 +339,7 @@ footer hr{
 footer input{
     box-sizing: border-box;
     height: 48px;
-    border: 1px solid rgba(23, 73, 77, 0.4);
+    border: 1px solid rgba(104, 115, 125, 1);
     background-color: rgba(248, 249, 249, 1);
   
     width: 310px;
