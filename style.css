@@ -4,6 +4,10 @@ html{
     min-width: 1440px;
     min-height: 1026px;
 }
+body{
+    width: 100%;
+    margin: 0;
+}
 
 .horizontal{
     display: flex;
