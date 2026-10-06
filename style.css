@@ -35,11 +35,11 @@ p{
 }
 
 .b700, a{
-    font-weight: bold;
+    font-weight: 700;
     color: rgba(3, 54, 61, 1);
 }
 .b400{
-    font-weight: normal;
+    font-weight: 400;
     color: rgba(23, 73, 77, 1);
 }
 
